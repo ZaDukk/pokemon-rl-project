@@ -1,0 +1,19 @@
+Meowscarada @ Life Orb
+Ability: Overgrow
+Level: 100
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flower Trick
+- Knock Off
+- U-turn
+- Play Rough
+
+Magnezone @ Leftovers
+Ability: Sturdy
+Level: 100
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+- Thunderbolt
+- Flash Cannon
+- Volt Switch
+- Thunder Wave

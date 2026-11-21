@@ -1,0 +1,6 @@
+# Match the environment that already ran your earlier 2v2 prototype.
+poke-env==0.16.1
+gymnasium==1.3.0
+numpy>=2.0.2
+torch
+# Optional: matplotlib, for plot_results.py

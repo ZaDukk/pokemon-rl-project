@@ -1,0 +1,38 @@
+# Local Python environment and generated Python files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and OS state
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.log
+
+# External simulator: clone upstream locally as documented
+/pokemon-showdown/
+node_modules/
+
+# Generated results and heavyweight training checkpoints
+/runs/
+/results/
+/results_*/
+*.pt
+*.pth
+*.ckpt
+
+# A small set of deliberately shared, documented inference models is allowed
+!models/*.pt
+
+# Root lockfile left by standalone Showdown setup (no root package.json)
+/package-lock.json
