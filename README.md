@@ -1,6 +1,6 @@
 # Pokémon Reinforcement Learning — PPO prototypes
 
-Experimental reinforcement-learning agents for **Pokémon Showdown**, using [`poke-env`](https://github.com/hsahovic/poke-env) and a **hand-implemented PPO** algorithm in PyTorch. tTe experiments and research question are still being developed.
+Experimental reinforcement-learning agents for **Pokémon Showdown**, using [`poke-env`](https://github.com/hsahovic/poke-env) and a **hand-implemented PPO** algorithm in PyTorch. The experiments and research question are still being developed.
 
 ## What is in this repository?
 
