@@ -9,6 +9,7 @@ Experimental reinforcement-learning agents for **Pokémon Showdown**, using [`po
 | `prototype.py` | Initial restricted 1v1 PPO experiment |
 | `prototype_2v2.py` | Rich-observation fixed-team 2v2 PPO experiment |
 | `pokemon_3v3_pool_ppo/` | Current 3v3 experiment: random teams of three from a fixed pool of 12 Pokémon; PPO and frozen historical-opponent self-play |
+| `pokemon_1v1_pool_ppo/` | 1v1 feasibility test: each side gets one Pokémon drawn from a small fixed pool (default 6); same PPO/curriculum as 3v3, plus a `benchmark` timing command and per-matchup win-rate grid. See its README |
 | `audit_3v3_policy_fixed.py` | Compare a saved 3v3 PPO policy against an always-first-move baseline and inspect its decisions |
 | `evaluate_*.py`, `inspect_*.py`, `play_vs_*.py`, `debug_2v2.py` | Earlier evaluations, diagnostic tools and human-play scripts (some target particular older prototypes) |
 | `custom-formats.ts` | Earlier custom format definitions; the current combined 1v1/2v2/3v3 definitions are in `pokemon_3v3_pool_ppo/custom-formats-3v3.ts` |
